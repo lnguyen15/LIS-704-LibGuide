@@ -1,0 +1,305 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+	<head>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="robots" content="noindex,noarchive" />
+				
+        <title>LIS704 Nguyen - LibGuides Sandbox for Library Schools at Springshare</title>
+		
+		<style>
+			body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+        </style>
+        
+        <script type="text/javascript" src="/include/lang.php" ></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js"></script>
+		<script type="text/javascript">
+			myPID = 711694;
+			mySID = 0;
+			var myGNAME = "LIS704+Nguyen";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '<img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"><h2 style="display:inline;">&nbsp;Working...</h2>';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid='+p+'&sid='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) > 0) { dojo.byId(divname).innerHTML = "<h2 style='color:#696969'>" + lang_mgr_global_thank_you + "</h2>"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+		</script>
+		
+			</head>
+	
+	<body id="top">
+		
+		
+	<noscript>
+		<div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+			<h2>
+				<span style="color: #000;">This site requires a JavaScript enabled browser. For more information please visit our <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">FAQ</a></span>
+			</h2>
+		</div>
+	</noscript><h1>LIS704 Nguyen</h1>
+			<div class="content_box">
+				<table width="100%">
+					<tr>
+						<td width="50%">
+							<table cellpadding="0" cellspacing="2">
+								<tr id="guide_title_row">
+									<td colspan="2"><span class="titlerow guide_val">Guide Information</span></td>
+								</tr>
+								<tr>
+									<td>Last Updated:</td>
+									<td>Dec 6, 2017</td>
+								</tr>
+								<tr id="guide_url_row">
+									<td class="guide_label">Guide URL:</td>
+									<td class="guide_val"><a href="http://libraryschool.libguidescms.com/content.php?pid=711694">http://libraryschool.libguidescms.com/content.php?pid=711694</a></td>
+								</tr><tr id="guide_rss_row"><td class="guide_label">RSS:</td><td class="guide_val"><a href="http://rss.libguides.com/rss.php?mode=p&iid=1431&pid=711694">Subscribe to Updates via RSS</a></td></tr></table></td>
+						<td width="50%">
+							<BR><span class="titlerow">Guide Index</span><BR><a title="View This Page" href="/print_content.php?pid=711694&sid=5898674">Introduction</a><BR><a title="View This Page" href="/print_content.php?pid=711694&sid=5898856">Circulating Books</a><BR><a title="View This Page" href="/print_content.php?pid=711694&sid=5898867">Reference Books</a><BR><a title="View This Page" href="/print_content.php?pid=711694&sid=5898884">Journals</a><BR><a title="View This Page" href="/print_content.php?pid=711694&sid=5898893">Web Resources</a><BR></td>
+					</tr>
+				</table>
+			</div><div id="guide_page_5898674" class="guide_page"><h2>Introduction</h2>
+					<div id="content_box_22361611" class="content_box content_box_4">
+						<div style="display:block;"><div class="titlerow" style="margin-bottom:10px;">712 History of the Printed Book</div><div style="margin-bottom:10px;"><p style="text-align: justify;"><span style="font-size: small;">This guide was created to support&nbsp;<strong>LIS 712: History of the Printed Book</strong>. This course covers the importance of spreading knowledge through printing and publishing from the implementation of the printing press in the 15th century to the present. Concepts to be explored will be how the invention of printing changed society, how the use of books has changed throughout history, and how to analyze books to determine its historical context.</span></p>
+<p style="text-align: justify;"><span style="font-size: small;">In order to support this course, this guide seeks to provide students with reference sources to help with assignments or to better understand the course content. In addition to this, the guide will provide sources that look at the history of printing from many perspectives and from different eras.</span></p>
+<p style="text-align: center;"><img src="http://lgimages.s3.amazonaws.com/data/imagemanager/c29673/wing-zw-14.v585_-la-vtilissima-opera-da-imparare-a-scrivere_-pg.2v-3r.jpg" width="629" height="355" /></p>
+<p style="text-align: center;">Image retrieved from Newberry.org.</p></div><ul></ul></div>
+						<div style="clear:both;"></div>
+					</div><div class="back_to_top" style="padding-bottom:20px;"><a href="#top">Back to Top</a></div></div><div id="guide_page_5898856" class="guide_page"><h2>Circulating Books</h2>
+					<div id="content_box_22385196" class="content_box content_box_14">
+						<div style="display:block;"><div class="titlerow" style="margin-bottom:10px;">LIS 712 History of the Printed Books Circulating Books</div><ul><li id="book7455259">The Book: a cover-to-cover exploration of the most powerful object of our time by Keith Houston<BR>ISBN: 9780393244793<BR>Publication Date: 2016-08-23<BR><a name="book_7455259" href="https://dom.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=neh&tg=UI&an=10521887&site=novp-live&scope=site">https://dom.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=neh&tg=UI&an=10521887&site=novp-live&scope=site</a>Media Mentions: Times Literary Supplement (2016-09-28)<br>Publisher: W. W. Norton & Company, Incorporated<br>Subject: BOOKS_HISTORY; LITERARY CRITICISM / Books & Reading; Books_History; LITERATURE: HISTORY & CRITICISM<br>Subtitle: A Cover-to-Cover Exploration of the Most Powerful Object of Our Time<br>Houston, K. (2016). The book: a cover-to-cover exploration of the most powerful object of our time. New York: W.W. Norton & Company.<br />
+<br />
+<br />
+A comprehensive, well-researched, and fascinating source about how books became so important in society. The author covers everything from history of the book, starting with etched surfaces, the transition to paper, and into the present, with mass-produced publications. Houston gives the reader interesting tidbits about little known facts pertaining to the history of the book and emphasizes the importance of illustrations, along with words, in the making of the book.<br />
+<br />
+<br />
+The Book: a Cover-to-Cover Exploration of the Most Powerful Object of Our Time by Keith Houston is a wonderful resource for LIS 712 because it gives a broad and engaging history of the printed book. This book covers the time line that is discussed in this course, from the 1500's to the present, but also extends the history prior to the 1500's by mentioning how the history of writing emerged into the history of the book.<br />
+<br />
+<br />
+Kirkus Reviews. (2016, May 14). [Review of The Book: a cover-to-cover exploration of the most powerful object of our time]. Retrieved from https://www.kirkusreviews.com/book-reviews/keith-houston/the-book-cover-to-cover/</li><li id="book7455269">Thinking Outside the Book by Augusta Rohrbach<BR>ISBN: 9781625341266<BR>Publication Date: 2014-10-01<BR><a name="book_7455269" href="http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.189028">http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.189028</a>Publisher: University of Massachusetts Press<br>Subject: AMERICAN LITERATURE_WOMEN AUTHORS; LITERARY CRITICISM / Women Authors; American literature_Women authors; GENDER STUDIES: WOMEN; LITERATURE: HISTORY & CRITICISM; AMERICAN LITERATURE_HISTORY AND CRITICISM_19TH CENTURY; LITERARY CRITICISM / American / General; American literature_History and criticism_19th century; LITERATURE: HISTORY & CRITICISM_USA; AUTHORSHIP; LANGUAGE ARTS & DISCIPLINES / Authorship; Authorship; CREATIVE WRITING & CREATIVE WRITING GUIDES; WOMEN AUTHORS; LITERARY CRITICISM / Women Authors; Women authors; GENDER STUDIES: WOMEN; LITERATURE: HISTORY & CRITICISM; AUTHORS AND PUBLISHERS; LANGUAGE ARTS & DISCIPLINES / Publishing; Authors and Publishers; PUBLISHING INDUSTRY & BOOK TRADE; AUTHORS AND READERS; LITERARY CRITICISM / Books & Reading; Authors and Readers; LITERATURE: HISTORY & CRITICISM; TRANSMISSION OF TEXTS; LITERARY CRITICISM / Books & Reading; Transmission of Texts; LITERATURE: HISTORY & CRITICISM; BOOKS_HISTORY; LITERARY CRITICISM / Books & Reading; Books_History; LITERATURE: HISTORY & CRITICISM; BOOKS AND READING_HISTORY; LITERARY CRITICISM / Books & Reading; Books and reading_History; LITERATURE: HISTORY & CRITICISM<br>Rohrbach, A. (2014). Thinking outside the box. Amherst, Massachusetts: University of Massachusetts Press.<br />
+<br />
+Thinking Outside the Book is an investigation of the role of women in publishing culture. Rohrbach writes about influential women from the 19th century and how they have shaped literature/publishing. This book goes beyond the history of the book and delves into the intersectional nature of something as important as the book.<br />
+<br />
+Augusta's Rohrbach's Thinking Outside the Book is a thought-provoking resource for LIS 712 because it is from the perspective of the marginalized. Rohrbach explores deeper implications of the book and applies these ideas to modern iterations of information delivery.<br />
+<br />
+Rodzvilla, J. (2016, April). [Review of Thinking outside the book]. Choice Reviews, 52(8). Retrieved from http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.189028</li><li id="book7455584">Print Culture Histories Beyond the Metropolis by James J. Connolly,  Patrick Collier, Frank Felsenstein, Kenneth R. Hall, and Robert Hall<BR>ISBN: 1442650621<BR>Publication Date: March 24, 2016<BR><a name="book_7455584" href="https://www.amazon.com/Culture-Histories-Beyond-Metropolis-Studies/dp/1442650621/ref=mt_hardcover?_encoding=UTF8&me=">https://www.amazon.com/Culture-Histories-Beyond-Metropolis-Studies/dp/1442650621/ref=mt_hardcover?_encoding=UTF8&me=</a>Connolly, J., Collier, P., Felsenstein, F., et. al. (2016). Print culture histories beyond the metropolis. Toronto, Ontario: University of Toronto Press.<br />
+<br />
+This collection of essays focuses on print culture in fringe locales rather than in large cities, where print industry is bustling. The places studied range from the US to Australia.<br />
+<br />
+For LIS 712, Print Culture Histories Beyond the Metropolis is an appropriate read to understand how printing affected populations who did not exist in central hubs of commerce. It is important to study the effects of print in marginal places.<br />
+<br />
+Wadham, R.L. (2016, Nov). [Review of Print Culture Histories Beyond the Metropolis]. Choice Reviews, 54(3). Retrieved from http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.198741</li><li id="book7455586">Publishing Blackness: Textual Constructions of Race Since 1850 by George Hutchinson; John Young<BR>ISBN: 9780472118632<BR>Publication Date: 2013-02-08<BR><a name="book_7455586" href="http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.51-1345">http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.51-1345</a>Publisher: University of Michigan Press<br>Subject: AFRICAN AMERICANS IN LITERATURE; LITERARY CRITICISM / American / African American; African Americans in literature; BLACK & ASIAN STUDIES_USA; LITERATURE: HISTORY & CRITICISM_USA<br>Subtitle: Textual Constructions of Race Since 1850<br>Hutchinson, G. and Young, J. (2013). Publishing blackness: textual constructions of race since 1850. Ann Arbor, MI: University of Michigan Press.<br />
+<br />
+Publishing Blackness is a collection of essays on the intersection of race and the control of print culture in the US. The essays cover topics including the Harlem Renaissance and the FBI investigations on prominent black leaders. The print literature about and by African Americans informed how race was thought about in America.<br />
+<br />
+From the African American perspective, Publishing Blackness is a noteworthy resource for LIS 712 in that it allows a more nuanced understanding of how print culture and race intertwines with one another. The book discusses contemporary thought on race in relation to print, which will inform students on the current discourse.<br />
+<br />
+Naick, P. (2013, Nov.) [Review of Publishing Blackness: Textual Constructions of Race Since 1850]. Choice Reviews, 51(3). Retrieved from http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.51-1345</li><li id="book7455587">Science in Print: Essays on the History of Science and the Culture of Print by Rima D. Apple (Editor); Gregory J. Downey (Editor); Stephen L. Vaughn (Editor); James A. Secord (Foreword by)<BR>ISBN: 9780299286149<BR>Publication Date: 2012-09-25<BR><a name="book_7455587" href="http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.50-3617">http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.50-3617</a>Publisher: University of Wisconsin Press<br>Subject: SCIENTIFIC LITERATURE; SCIENCE / General; Scientific literature; SCIENCE: GENERAL ISSUES; COMMUNICATION IN SCIENCE; SCIENCE / General; Communication in Science; SCIENCE: GENERAL ISSUES; PUBLISHERS AND PUBLISHING_HISTORY; LANGUAGE ARTS & DISCIPLINES / Publishing; Publishers and Publishing_History; PUBLISHING INDUSTRY & BOOK TRADE<br>Subtitle: Essays on the History of Science and the Culture of Print<br>Apple, R.D., Downey, G.J., and Vaughn, S.L. (2012). Science in print: essays on the history of science and the culture of print. Madison, WI: University of Wisconsin Press.<br />
+<br />
+Science in Print collects nine essays about the history of science, relating it to print culture. The book covers different fields of science, including mathematics, and science education.<br />
+<br />
+This book is extremely fitting for LIS 712 because the focus of the class is on "dissemination of scientific discoveries and ideas" through print. While the other sources supplement the history of print by offering diverse perspectives, this book specifically concentrates on the field of science.<br />
+<br />
+Sheffield, K.M. ( 2103, March) [Review of Science in Print: Essays on the History of Science and the Culture of Print]. Choice Reviews, 50(7). Retrieved from http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.50-3617</li><li id="book7455588">Pressing the Fight: Print, Propaganda and the Cold War by Greg Barnhisel; Catherine Turner<BR>ISBN: 9781558497368<BR>Publication Date: 2010-02-01<BR><a name="book_7455588" href="http://www.choicereviews.org/review/10.5860/CHOICE.48-1854">http://www.choicereviews.org/review/10.5860/CHOICE.48-1854</a>Barnhisel, G. and Turner, C. (2010). Pressing the fight: print propaganda and the Cold War. Amherst, MA: University of Massachusetts Press.<br />
+<br />
+Pressing the Fight is a detailed book that has essays on how print affected the Cold War and vice versa. The book discusses how images and words can propel propaganda.<br />
+<br />
+Another important read for LIS 712 is Pressing the Fight. While the topic of war may be difficult to discuss, it's important to remember and understand how print can be used as a tool in war time.<br />
+<br />
+Maus, D.C. (2010, Dec.) [Review of Pressing the Fight: Print, Propaganda and the Cold War]. Choice Reviews, 48(4). Retrieved from http://www.choicereviews.org/review/10.5860/CHOICE.48-1854</li><li id="book7455589">Removable Type: histories of the book in Indian country 1663-1880 by Phillip H. Round<BR>ISBN: 9780807833902<BR>Publication Date: 2010-10-11<BR><a name="book_7455589" href="http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.48-5880">http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.48-5880</a>Publisher: University of North Carolina Press<br>Subject: BOOKS AND READING; LITERARY CRITICISM / Books & Reading; Books and reading; LITERATURE: HISTORY & CRITICISM; INDIANS OF NORTH AMERICA_GOVERNMENT RELATIONS; HISTORY / Native American; Native Americans_Government relations; INDIGENOUS PEOPLES_THE AMERICAS; SOCIAL & CULTURAL HISTORY_THE AMERICAS; LITERACY; LANGUAGE ARTS & DISCIPLINES / Literacy; Literacy; LITERACY; INDIANS OF NORTH AMERICA_CULTURAL ASSIMILATION; SOCIAL SCIENCE / Ethnic Studies / Native American Studies; Native Americans_Cultural assimilation; INDIGENOUS PEOPLES_THE AMERICAS; SOCIAL & CULTURAL HISTORY_THE AMERICAS<br>Subtitle: Histories of the Book in Indian Country, 1663-1880<br>Round, P.H. (2010). Removable Type: histories of the book in Indian country 1663-1880. Chapel Hill, NC: University of North Carolina Press.<br />
+<br />
+Phillip H. Round researches the development of print culture in Native history, starting with John Eliot's Bible in 1663. He proposes how Native peoples utilized the Western mode of printing and publishing as a tool to preserve their own culture.<br />
+<br />
+Removable Type is another resource that provides a perspective of print culture that deviates from the Western canon. This book can be an essential read in LIS 712 because it concentrates on often ignored perspectives from the Native community.<br />
+<br />
+Burch, J. (2010, Aug. 10). [Review of Removable Type: Histories of the Book in Indian Country, 1663-1880]. Library Journal Reviews, 135(13), 83. Retrieved from http://www-lexisnexis-com.dom.idm.oclc.org/lnacui2api/api/version1/getDocCui?lni=511S-CSC1-DY5K-R4CD&csi=256618&hl=t&hv=t&hnsd=f&hns=t&hgn=t&oc=00240&perma=true</li><li id="book7455686">A World Not to Come: A History of Latino Writing and Print Culture by Raúl Coronado<BR>ISBN: 9780674072619<BR>Publication Date: 2013-06-10<BR><a name="book_7455686" href="http://www.choicereviews.org/review/10.5860/CHOICE.52-0130">http://www.choicereviews.org/review/10.5860/CHOICE.52-0130</a>Publisher: Harvard University Press<br>Subject: AMERICAN LITERATURE_HISPANIC AMERICAN AUTHORS_HISTORY AND CRITICISM; LITERARY CRITICISM / American / Hispanic American; American literature_Latino authors_History and criticism; LITERATURE: HISTORY & CRITICISM_USA; AMERICAN LITERATURE_HISTORY AND CRITICISM_19TH CENTURY; LITERARY CRITICISM / American / General; American literature_History and criticism_19th century; LITERATURE: HISTORY & CRITICISM_USA; HISPANIC AMERICANS; SOCIAL SCIENCE / Ethnic Studies / Hispanic American Studies; Latinos (U.S.); HISPANIC & LATINO STUDIES_USA; SOCIAL & CULTURAL HISTORY_USA<br>Subtitle: A History of Latino Writing and Print Culture<br>Coronado, R. (2013). A world not to come: a history of latino writing and print culture. Cambridge, MA: Harvard University Press.<br />
+<br />
+Raúl Coronado's A World Not to Come examines Latino culture through the lens of print history. He analyzes the importance of oral tradition, religion, and revolution in Latin America's print culture.<br />
+<br />
+A World Not to Come offers a Latino perspective in print history that diverges from the typical European and white canon that is often emphasized. This book would be an important read in LIS 712 because it shows the way in which print informs a major culture.<br />
+<br />
+Edwards, A.A. (2014, Sept.) [Review of A World Not to Come: A History of Latino Writing and Print Culture]. Choice Reviews, 52(1). Retrieved from http://www.choicereviews.org.dom.idm.oclc.org/review/10.5860/CHOICE.52-0130</li></ul></div>
+						<div style="clear:both;"></div>
+					</div><div class="back_to_top" style="padding-bottom:20px;"><a href="#top">Back to Top</a></div></div><div id="guide_page_5898867" class="guide_page"><h2>Reference Books</h2>
+					<div id="content_box_22369221" class="content_box content_box_14">
+						<div style="display:block;"><div class="titlerow" style="margin-bottom:10px;">Resources</div><ul><li id="book7461669">Make Your Own History: Documenting Feminist and Queer Activism in the 21st Century by Lyz Bly (Editor); Kelly Wooten (Editor)<BR>ISBN: 9781936117130<BR>Publication Date: 2011-01-01<BR><a name="book_7461669" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2014_43989&docId=21&num=52&t=3&s=3&p=21&qID=353034">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2014_43989&docId=21&num=52&t=3&s=3&p=21&qID=353034</a>Bly, L., Wooten, K. (2017). Make your own history: documenting feminist and queer activism in the 21st century. Sacramento, CA: Library Juice Press.<br />
+<br />
+Make Your Own History is a contemporary book about the importance in modern society to document marginalized cultures. It focuses on feminist and queer communities in particular and contains essays on collecting and archiving materials pertaining to feminist and queer experiences.<br />
+<br />
+This progressive book by Bly and Wooten would be an insightful source for LIS 712 to show how alternative modes of printing and publishing are being implemented today. This book will allow students to compare the purposes of print literature from 1500 when the printing press was employed to printing's modern uses.<br />
+<br />
+Marcus, S. (2014). [Review of Make your own history: documenting feminist and queer activism in the 21st century]. ARBA Online. Retreived from http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2014_43989&docId=21&num=52&t=3&s=3&p=21&qID=353034</li><li id="book7459952">Archives in Libraries: What Librarians and Archivists Need to Know to Work Together by Jeannette A. Bastian; Megan Sniffin-Marinoff; Donna Webber<BR>ISBN: 1931666873<BR>Publication Date: 2015-08-01<BR><a name="book_7459952" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2016_48934&docId=0&num=0&t=1&s=6&p=1&qID=353226">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2016_48934&docId=0&num=0&t=1&s=6&p=1&qID=353226</a>Bastian, J.A., Sniffin-Marinoff, M., Webber, D. (2015). Archives in Libraries: What Librarians and Archivists Need to Know to Work Together. Chicago, IL: Society of American Archivists.<br />
+<br />
+Archives in Libraries is a special book that advocates for collaboration within the LIS field. It is written for those who work in academic or public libraries that may house historical or cultural archives as a part of their collection.<br />
+<br />
+While this book caters to archivists, it may be of interest to LIS 712 students who are inspired to do archival or preservation work. As a portion of this class focuses on identifying books through examining its properties, this resource may be helpful for those leaning towards the archival field.<br />
+<br />
+Searing, S.E. (2016). [Review of Archives in Libraries: What Librarians and Archivists Need to Know to Work Together]. ARBA Online.</li><li id="book7461670">Encyclopedia of Archival Science by Luciana Duranti (Editor); Patricia C. Franks (Editor)<BR>ISBN: 9780810888104<BR>Publication Date: 2015-06-17<BR><a name="book_7461670" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2016_48279&docId=8&num=52&t=3&s=3&p=1&qID=353034">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2016_48279&docId=8&num=52&t=3&s=3&p=1&qID=353034</a>Publisher: Rowman & Littlefield Publishers, Incorporated<br>Subject: ARCHIVES; LANGUAGE ARTS & DISCIPLINES / Library & Information Science / Archives & Special Libraries; Archives; LIBRARY, ARCHIVE & INFORMATION MANAGEMENT; RECORDS_MANAGEMENT; BUSINESS & ECONOMICS / Office Management; Records_Management; OFFICE MANAGEMENT<br>Duranti, L., Franks, P.C. (2015). Encyclopedia of archival science. Lanham, MD: Rowman & Littlefield.<br />
+<br />
+This encyclopedia is full of topics about archival studies, including preservation, description, and documentary evidence. It contains 200 entries in alphabetical order as well as keywords and a bibliography.<br />
+<br />
+For LIS 712, this book would be a great resource to further understand concepts of preservation and the science behind it since a portion of this class is dedicated to identifying books from their physical attributes. Students can consult it if they had questions about terminology related to book preservation.<br />
+<br />
+Shakalis, W. (2016). [Review of Encyclopedia of Archival Science]. ARBA Online.</li><li id="book7461286">Colonial Literature, 1607-1776 by Joseph A. Dane<BR>ISBN: 9780816078615<BR>Publication Date: 2010-03-01<BR><a name="book_7461286" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2011_40389&docId=0&num=0&t=1&s=6&p=1&qID=353253">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2011_40389&docId=0&num=0&t=1&s=6&p=1&qID=353253</a>Dane, J.A. (2010). Research Guide to Colonial Literaturem 1607-1776. New York, NY: Facts on File.<br />
+<br />
+Colonial Literature is a part of the Research Guide to American Literature series. This book focuses on the years from the establishment of Jamestown in 1607 to the founding of the nation in 1776.<br />
+<br />
+While this book examines the literature that circulated in the Colonial period, it may be of interest to LIS 712 students who want to know more about the print culture within literature that was happening during the early American settlement period. This reference book can provide important information about the significance of the book and other printed materials in a time when the New World was in its infancy.<br />
+<br />
+Antik, A. (2010). [Review of Research Guide to American Literature: Colonial Literature, 1607-1776]. ARBA Online.</li><li id="book7459951">Early American Literature, 1776-1820 by Angela Vietto<BR>ISBN: 9781438132433<BR>Publication Date: 2012-03-30<BR><a name="book_7459951" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2011_40388&docId=0&num=0&t=1&s=6&p=1&qID=353221">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2011_40388&docId=0&num=0&t=1&s=6&p=1&qID=353221</a>Vietto, A. (2010). Research Guide to American Literature, 1776-1820. New York, NY: Facts on File.<br />
+<br />
+Research Guide to American Literature is a series in studying the importance of American literature. This book focuses on the years 1776-1820, starting at the beginning of America's birth.<br />
+<br />
+The whole series would be useful for LIS 712 students to understand the significance of literature in American over a large time span. The concentration between 1776-1820 may be particularly interesting, considering the revolutionary events taking place in America.<br />
+<br />
+Antik, A. (2011). [Review of Research Guide to American Literature]. ARBA Online.</li><li id="book7461288">The Gilded Age and Progressive Era: A Historical Exploration of Literature by Wendy Martin; Cecelia Tichi<BR>ISBN: 9781610697637<BR>Publication Date: 2016-02-22<BR><a name="book_7461288" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2017_49168&docId=17&num=494&t=1&s=3&p=1&qID=353252">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2017_49168&docId=17&num=494&t=1&s=3&p=1&qID=353252</a>Martin, W., Tichi, C. (2016). The Gilded Age and Progressive Era:  A Historical Exploration of Literature. Santa Barbara, CA: Greenwood Press/ABC-CLIO.<br />
+<br />
+This reference book studies American literature from the end of the Civil War to the beginning of WWI. It includes analysis of the literary masterpieces produced in that time period, while also offering cultural and social context.<br />
+<br />
+For LIS 712, this is yet another dive into an important era in American literature. This book will provide some research into how political and social pressure shaped American literature, and therefore books being published at the time.<br />
+<br />
+Bemis, M.F. (2017). [Review of The Gilded Age and Progressive Era: A Historical Exploration of Literature]. ARBA Online.</li><li id="book7460103">Libraries and the Reading Public in Twentieth-Century America by Christine Pawley (Editor); Louise S. Robbins (Editor)<BR>ISBN: 9780299293246<BR>Publication Date: 2013-09-13<BR><a name="book_7460103" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2014_46243&docId=9&num=39&t=3&s=3&p=1&qID=353237">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2014_46243&docId=9&num=39&t=3&s=3&p=1&qID=353237</a>Pawley, C., Robbins, L.S. (2013). Libraries and the reading public in the twentieth-century America. Madison, WI: University of Wisconsin Press.<br />
+<br />
+Libraries and the Reading Public is informative about the history libraries play in community literacy. This book showcases themes such as public libraries, readers, and local communities.<br />
+<br />
+For LIS 712, this would be a good read to show how libraries use books as tools to enhance the community. Expanding the focus of how books disseminated information to how libraries can play the same role would be an essential insight.<br />
+<br />
+Hysell, S.G. (2013). Libraries and the Reading Public in Twentieth-Century America. ARBA Online.</li><li id="book7461299">Historical Guide to World Media Freedom by Douglas Van Belle (Editor); Jenifer Whitten-Woodring (Editor)<BR>ISBN: 9781608717651<BR>Publication Date: 2014-06-18<BR><a name="book_7461299" href="http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2015_47193&docId=40&num=482&t=3&s=3&p=41&qID=353234">http://arba.librariesunlimited.com.dom.idm.oclc.org/review.aspx?linkId=A2015_47193&docId=40&num=482&t=3&s=3&p=41&qID=353234</a>Van Belle, D., Whitten-Woodring, J. (2014). History guide to world media freedom. Thousand Oaks, CA: Sage.<br />
+<br />
+Historical Guide to World Media Freedom is a guide to the idea of freedom of the press from 196 countries within the time span from 1948 to 2012. The book aggregates data about media free from two sources, Global Media Freedom Dataset and from Freedom House Data, to give an analysis country by country about the state of freedom of the press.<br />
+<br />
+Although this is a broad scope book, it could be used for reference when referring to the American press, particularly in the realm of publishing. This book could also provide some historical context to understanding how freedom of the press is intertwined with practices of book printing and publishing.<br />
+<br />
+Crawford, G.A. (2015). [Review of Historical Guide to World Media Freedom]. ARBA Online.</li></ul></div>
+						<div style="clear:both;"></div>
+					</div><div class="back_to_top" style="padding-bottom:20px;"><a href="#top">Back to Top</a></div></div><div id="guide_page_5898884" class="guide_page"><h2>Journals</h2>
+					<div id="content_box_22401878" class="content_box content_box_14">
+						<div style="display:block;"><div class="titlerow" style="margin-bottom:10px;">Resources</div><div style="margin-bottom:10px;"><p><img src="http://i.imgur.com/BboVcBn.png" width="600" height="200" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p style="text-align: center;">Image from Turnin.com</p>
+<p style="text-align: center;"></p>
+<p></p>
+<p></p>
+<p><span style="font-size: small;"><strong><em>The Book Collector</em>. Collector Ltd.&nbsp;1952.&nbsp;0006-7237.</strong><br /></span></p>
+<p><span style="font-size: small;"><em>The Book Collector</em> is a journal for those who have interest in collecting rare and antiquarian books. The journal features essays and other resources from the book trade in the UK and each issue has page reproduction from intriguing books.</span></p>
+<p><span style="font-size: small;">This journal would be a good resource for LIS 712 because it might offer advice on procuring and maintaing rare books. It also has relevant news on book collecting to show students that book conservation and collecting are still popular today.</span></p>
+<p><span style="font-size: small;">Bernnard, D. F.&nbsp;ML 01-11-2017</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><em>Early Book SocietyJournal:&nbsp;<span class="TextRun Highlight SCXW265572505" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW265572505">for the study of manuscripts and printing</span></span></em><span class="TextRun Highlight SCXW265572505" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW265572505"><em> history</em>. Pace University Press. 1997.&nbsp;1525-6790.</span></span></strong></span></p>
+<p><span style="font-size: small;">A journal specifically studying the history of the book and the transition to print. This journal contains essays about print culture, book culture, and emerging perspectives on book history.</span></p>
+<p><span style="font-size: small;">LIS 712 students would find this a great journal for their class because it strictly pertains to the course content in providing essays all about print culture. The historical span of the journal covers the time period dicussed in this course as well.</span></p>
+<p><span style="font-size: small;">Smith, D.B.&nbsp;ML 01-11-2017</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><span class="TextRun Highlight SCXW132933560" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW132933560"><em>Printing Historical Society Journal</em>.&nbsp;Printing Historical Society. 1962.&nbsp;0079-5321.</span></span></strong><span class="EOP SCXW132933560" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:480}"><br /></span></span></p>
+<p><span style="font-size: small;"><span class="TextRun Highlight SCXW132933560" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW132933560"><em>Printing History Society Journal</em> is about preservation of print and print history. Essays and book reviews by those in the printing field are featured in this journal.</span></span></span></p>
+<p><span style="font-size: small;"><span class="TextRun Highlight SCXW132933560" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW132933560">Another relevant source for LIS 712 is&nbsp;<em>Printing History Society Journal</em>. This journal covers issues of print history and goes into the aspects of typeface, which the class focuses on in order to identify which time period books were produced in.</span></span></span></p>
+<p><span style="font-size: small;">&nbsp;Wood, W.&nbsp;&nbsp;ML 01-11-2017</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><em>&nbsp;</em><span class="TextRun SCXW265516545" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW265516545"><em>Printing History</em>.&nbsp;American Printing History Association.&nbsp;1979.&nbsp;0192-9275.</span></span></strong></span></p>
+<p><span style="font-size: small;"><strong><span class="TextRun SCXW265516545" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW265516545"><br /></span></span></strong><span class="TextRun SCXW265516545" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW265516545"><em>Printing History</em> is a research journal about everything from prominent names in the print field to details about papermaking. It mainly focuses on American printing, but also touches on international issues.</span></span></span></p>
+<p><span style="font-size: small;">This journal is another accurate source for LIS 712 for it concentrates on American printing. Students may find pertinent essays on identifying aspects of books or biographies of important figures in print culture.</span></p>
+<p><span style="font-size: small;">&nbsp;Wood, W.&nbsp;&nbsp;ML 01-11-2017</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><em>Quaerendo: a journal devoted to manuscripts and printed</em><em> books</em>.&nbsp;Brill.&nbsp;1903.&nbsp;0014-9527.</strong></span></p>
+<p><span style="font-size: small;"><em>Quaerendo</em> hails from the Netherlands and is a peer-reviewed journal. The subjects covered in&nbsp;<em>Quaerendo&nbsp;</em>are publishing, printing, study of codexes, and ancient handwriting analysis.</span></p>
+<p><span style="font-size: small;">Since this journal covers the time period from the 1500s to the present, it is an excellent resource for LIS 712. This journal will provide students with current events in the study of printed books, as well as historical context and information about interesting conferences and exhibits related to printing.</span></p>
+<p><span style="font-size: small;">&nbsp;Wood, W.,&nbsp; ML 01-11-2017</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><em><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW79433012">Gutenberg-</span></span></em><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US"><span class="SpellingError SCXW79433012"><em>Jahrbuch</em>.&nbsp;Harrassowitz Verlag.&nbsp;1926.&nbsp;0072-9094.</span></span></strong></span></p>
+<p><span style="font-size: small;"><strong><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US"><span class="SpellingError SCXW79433012"><br /></span></span></strong><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US"><span class="SpellingError SCXW79433012">This scholarly journal is devoted to Johannes Gutenburg, the populizer of the printing press. Its contents also discuss the history of the book in multiple languages including English, German, and Italian.</span></span></span></p>
+<p><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US" style="font-size: small;"><span class="SpellingError SCXW79433012"><em><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW79433012">Gutenberg-</span></span><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US"><span class="SpellingError SCXW79433012">Jahrbuch</span></span></em><span class="EOP SCXW79433012" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:480}">&nbsp;would be a great read for LIS 712 because it concentrates on one of the most well-known names in printing history, Gutenburg. Much more than a serial biography, the journal also discusses important issues about print history and culture.</span></span></span></p>
+<p><span style="font-size: small;"><span class="TextRun Highlight SCXW79433012" xml:lang="EN-US" lang="EN-US"><span class="SpellingError SCXW79433012"><span class="EOP SCXW79433012" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:480}">Bernnard, B.F.,&nbsp;</span></span></span>ML 01-11-2017</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><em>Acta Graphica: journal of printing science and graphic communications</em>.&nbsp;Acta Graphica Publishers.&nbsp;1989.&nbsp;0353-4707.</strong></span></p>
+<p><span style="font-size: small;"><em>Acta Graphica</em> is an open access peer-reviewed journal from the University of Zagreb in Croatia. It features scientific research on everything from printing to graphic communication.</span></p>
+<p><span style="font-size: small;">An interesting source for LIS 712, <em>Acta Graphica</em> is a source for students who are interested in more than the printed word. This journal also takes into consideration illustration and the engineering that goes into printing.</span></p>
+<p><span style="font-size: small;">Wood, W.,&nbsp; ML 01-11-2017</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><span class="TextRun Highlight SCXW101262200" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW101262200"><em>The New Bookbinder: journal of designer bookbinder</em>. Designer Bookbinders Publications Ltd.&nbsp;1973. 0261-5363.</span></span></strong></span></p>
+<p><span style="font-size: small;"><strong><span class="TextRun Highlight SCXW101262200" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW101262200"><br /></span></span></strong><span class="TextRun Highlight SCXW101262200" xml:lang="EN-US" lang="EN-US"><span class="NormalTextRun SCXW101262200">The New Bookbinder is an annual journal that discusses the various aspects of bookbinding. It touches on bookbinding history as well as conservation of books and techniques of binding books.</span></span></span></p>
+<p><span class="TextRun Highlight SCXW101262200" xml:lang="EN-US" lang="EN-US" style="font-size: small;"><span class="NormalTextRun SCXW101262200">For LIS 712, this journal would help when students are examining binding of printed books. It will also help them to understand how methods of bookbinding has changed or stayed the same throughout history.</span></span></p>
+<p><span class="TextRun Highlight SCXW101262200" xml:lang="EN-US" lang="EN-US" style="font-size: small;"><span class="NormalTextRun SCXW101262200">Smith, D.B.,&nbsp;ML 01-11-2017.</span></span></p></div><ul></ul></div>
+						<div style="clear:both;"></div>
+					</div><div class="back_to_top" style="padding-bottom:20px;"><a href="#top">Back to Top</a></div></div><div id="guide_page_5898893" class="guide_page"><h2>Web Resources</h2>
+					<div id="content_box_22410820" class="content_box content_box_1">
+						<div style="display:block;"><div class="titlerow" style="margin-bottom:10px;">Open Access Websites</div><div style="margin-bottom:10px;"><p><span style="font-size: small;"><strong><img src="https://www.business.att.com/content/productsub-category/images/high-speed-internet/ns-highspeed-internet-high-speed-access-photo.jpg" width="544" height="306" style="display: block; margin-left: auto; margin-right: auto;" /></strong></span></p>
+<p style="text-align: center;">Image from business.att.com</p>
+<p style="text-align: center;"><strong style="font-size: small;">&nbsp;</strong></p>
+<p><span style="font-size: small;"><strong><a href="https://extra.shu.ac.uk/emls/journal/index.php/emls">Early Modern Literary Studies</a></strong></span></p>
+<p><span style="font-size: small;">This open access website is run by the<em> Early Modern Literary Studies Journal</em>. It is a journal dedicated to study of 16th and 17th century literature, focusing on English literature. The journal contains pertinent articles on print culture in literature.</span></p>
+<p><span style="font-size: small;">For LIS 712, this is a great web resource to explore. The website gives students full access to the journal's current and past issues and has a simple interface. There is a search function for students to further refine their research.</span></p>
+<hr />
+<p><span style="font-size: small;"><a href="http://handpapermaking.org/"><strong>Hand Papermaking</strong></a></span></p>
+<p><span style="font-size: small;">Hand Papermaking is a site dedicated to the craft of making paper. This website offers photographs, portfolios, and free articles all about papermaking.</span></p>
+<p><span style="font-size: small;">This is a handy resource for LIS 712 in that it gives access to great visual resources on papermaking. Since the class focuses on identifying types of paper, this would be a good place to research papermaking for students.</span></p>
+<hr />
+<p><span style="font-size: small;"><a href="http://libellarium.org/index.php/libellarium"><strong>Libellarium: journal for the research of writing, books, and cultural heritage institutions</strong></a></span></p>
+<p><span style="font-size: small;">Libellarium is an extensive open access journal that covers everything from the history of books, print, written word and more. The journal is published by the&nbsp;University of Zadar in Croatia.</span></p>
+<p><span style="font-size: small;">This journal's website is a rich resource that houses plenty of relevant articles for LIS 712. Students can read full-text PDFs of articles on print history, literacy, and publishing. They offer eBook compatible downloads for many of their articles as well.</span></p>
+<hr />
+<p><span style="font-size: small;"><a href="https://journals.library.ualberta.ca/langandlit/index.php/langandlit/"><strong>Language and Literacy</strong></a></span></p>
+<p><span style="font-size: small;">This journal studies "literacy, learning, teaching, research, and theory." It is Canadian ran journal published by the University of Alberta.</span></p>
+<p><span style="font-size: small;">A literacy journal would be a good start for LIS 712 students in understanding how literacy plays into book publishing trends. The journal covers the history and development of literacy that spans multiple disciplines.</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><a href="https://doaj.org/">Directory of Open Access Journals (DOAJ)</a></strong></span></p>
+<p><span style="font-size: small;">The Directory of Open Access Journals is the project of Lund University in Sweden. DOAJ offers access to over 10,000 open access scholarly journals, allowing users to download full-text articles in disciplines including science and the humanities.</span></p>
+<p><span style="font-size: small;">This web resource is great for students because it functions as a search engine for many free access peer-reviewed journals. Not only would students find this useful for LIS 712, where they can find articles on the history of books and printing, but it would be a helpful resource for their other classes as well.</span></p>
+<hr />
+<p><span style="font-size: small;"><a href="https://theachieversjournal.com/"><strong>The Achiever's Journal</strong></a></span></p>
+<p><span style="font-size: small;">This journal is dedicated to studying English language, literature, and culture. It is published by Bhadohi Publishers in India.</span></p>
+<p><span style="font-size: small;">The Achiever's Journal is good for general research into English literature from an international perspective. It would be helpful for LIS 712 students to browse the issues for articles relating to the culture of English culture and books.</span></p>
+<hr />
+<p><span style="font-size: small;"><a href="https://bibliothecae.unibo.it"><strong>Bibliotecae Journal</strong></a></span></p>
+<p><span style="font-size: small;">Bibliothecae is run by the University of Bologna in Italy. The topics covered are information services, libraries, bibliographic information, and books according to their focus and scope statement.</span></p>
+<p><span style="font-size: small;">This online journal would help LIS 712 with finding resources about many topics relating to printing, including typography, book making, and book binding. The search function is easy to navigate and the scope of the journal is wide to assist students researching any aspect of book culture.</span></p>
+<hr />
+<p><span style="font-size: small;"><strong><a href="http://ojs.ugent.be/jeps">Journal of European Periodical Studies</a></strong></span></p>
+<p><span style="font-size: small;">This journal examines aspects of European periodicals from newspapers to advertisements and illustrations that appear in periodicals. The time frame covered is from the 17th century to the present.</span></p>
+<p><span style="font-size: small;">While this journal specifical covers periodicals and not books, it may still be a good source for LIS 712 students to look at the overall print culture that existed in Europe to better understand overarching historical contexts. This site allows students to search for articles that cover national and historical trends within Europe.</span></p></div></div>
+						<div style="clear:both;"></div>
+					</div><div class="back_to_top" style="padding-bottom:20px;"><a href="#top">Back to Top</a></div></div>
+<div id="footer" style="text-align:left;">
+	<div id="footer_topline">
+    	Powered by <A href="http://www.springshare.com">Springshare</A>; All rights reserved. 
+    	<span id="footer_support_link">
+        	<a href="/support.php">Report a tech support issue</a>.      	</span>
+  	</div>
+	
+	</div>
+
+<div id="customFooter"></div>
+	<div id="trackingcode"></div>		
+	</body>
+</html>
